@@ -1,5 +1,8 @@
-import React, { Component } from 'react';
-import './Counter.css';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+
+import * as counterActions from '../../state/counter/actions'
+import './Counter.css'
 
 class Counter extends Component {
   constructor() {
